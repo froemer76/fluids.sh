@@ -1,5 +1,5 @@
-#help message from fluis.sh
-
+#summary help message from fluis.sh
+= Help message =
 {{{
  Usage: 
   fluids.sh -id {ID} {-ib|-it|-ic|-st|-sp & spec.para.} [-s {digits} -o {outfile} -r|-R -ref {REF} -si|-u '{%t}...{%g}']
