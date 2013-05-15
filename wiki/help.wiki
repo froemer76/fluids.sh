@@ -1,6 +1,6 @@
 #summary help message from fluis.sh
 = Help message =
-{{{
+<pre>
  Usage: 
   fluids.sh -id {ID} {-ib|-it|-ic|-st|-sp & spec.para.} [-s {digits} -o {outfile} -r|-R -ref {REF} -si|-u '{%t}...{%g}']
   fluids.sh [-R] -show 
@@ -27,4 +27,4 @@
   (isochor)  -ic -d {dens/(g/ml)] -Tl {T_low/K} -Th {T_high/K} [-i {T_inc/K}]
   (satur.T)  -st -pl {p_low/bar} -ph {p_high/bar} [-i {p_inc/bar}]
   (satur.P)  -sp -Tl {T_low/K} -Th {T_high/K} [-i {T_inc/K}]
-}}}
+</pre>
