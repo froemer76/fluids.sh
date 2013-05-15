@@ -1,0 +1,30 @@
+#help message from fluis.sh
+
+{{{
+ Usage: 
+  fluids.sh -id {ID} {-ib|-it|-ic|-st|-sp & spec.para.} [-s {digits} -o {outfile} -r|-R -ref {REF} -si|-u '{%t}...{%g}']
+  fluids.sh [-R] -show 
+  fluids.sh [-u '{%t}...{%g}'|-si] -units
+  fluids.sh -h|--help
+ 
+ Common options:
+  -id            NIST ID of the substance (e.g. C7732185 = Water)
+  -s             number of digits in output (default: 5)
+  -o             name of the output file (default: fluids_*.dat)
+  -r             resolve substance name of NIST ID
+  -R             like '-r' and enforce to renew catalogue
+  -ref           standard state convention (default: "default for fluid")
+  -si            use SI units instead of default
+  -u             define units (use '-units' for more info)
+  -show          print the catalogue of available substances (NIST IDs) and exit
+  -units         print a help about handling of units and exit
+  -h, --help     print this help and exit
+  -V, --version  print version number and exit
+
+ Specific options:
+  (isobar)   -ib -p {p/bar] -Tl {T_low/K} -Th {T_high/K} [-i {T_inc/K}]
+  (isotherm) -it -T {T/K] -pl {p_low/bar} -ph {p_high/bar} [-i {p_inc/bar}]
+  (isochor)  -ic -d {dens/(g/ml)] -Tl {T_low/K} -Th {T_high/K} [-i {T_inc/K}]
+  (satur.T)  -st -pl {p_low/bar} -ph {p_high/bar} [-i {p_inc/bar}]
+  (satur.P)  -sp -Tl {T_low/K} -Th {T_high/K} [-i {T_inc/K}]
+}}}
