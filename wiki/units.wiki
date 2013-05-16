@@ -1,0 +1,37 @@
+#summary How to handle units of input & output quantities
+
+= Handling of units =
+
+<pre>
+ About units handling in fluids.sh:
+  The default units for out and input properties are defined right at the
+  beginning (line 56 to 62) of the fluids.sh script.
+  To define differing units one can use the '-u' option.
+   
+ Option Usage: -u '%t %p %d %e %v %m %g'
+   %t Temperatur: 1=Kelvin, 2=Celsius, 3=Fahrenheit, 4=Rankine
+   %p Pressure: 1=MPa, 2=bar, 3=atm, 4=torr, 5=psia
+   %d Density: 1=mol/l, 2=mol/m3, 3=g/ml, 4=kg/m3, 5=lb-mole/ft3, 6=lbm/ft3
+   %e Energy: 1=kJ/mol, 2=kJ/kg, 3=kcal/mol, 4=Btu/lb-mole, 5=kcal/g, 6=Btu/lbm
+   %v Velocity: 1=m/s, 2=ft/s, 3=mph
+   %m Viscosity: 1=uPa*s, 2=Pa*s, 3=cP, 4=lbm/ft*s
+   %g Surface tension: 1=N/m, 2=dyn/cm, 3=lb/ft, 4=lb/in
+
+ Default units:
+  -Temperatur     : K
+  -Pressure       : bar
+  -Density        : g/ml
+  -Energy         : kJ/mol
+  -Velocity       : m/s
+  -Viscosity      : Pa*s
+  -Surface tension: N/m
+
+ SI units:
+  -Temperatur     : K
+  -Pressure       : MPa
+  -Density        : kg/m3
+  -Energy         : kJ/kg
+  -Velocity       : m/s
+  -Viscosity      : Pa*s
+  -Surface tension: N/m
+</pre>
