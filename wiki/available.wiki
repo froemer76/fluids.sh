@@ -1,0 +1,84 @@
+#summary Available substances and their IDs
+
+= Available substances =
+
+<pre>
+
+ID         Substance
+---------  ----------------
+C7732185   Water
+C7727379   Nitrogen
+C1333740   Hydrogen
+B5000001   Parahydrogen
+C7782390   Deuterium
+C7782447   Oxygen
+C7782414   Fluorine
+C630080    Carbon monoxide
+C124389    Carbon dioxide
+C10024972  Dinitrogen monoxide
+C7789200   Deuterium oxide
+C67561     Methanol
+C74828     Methane
+C74840     Ethane
+C74851     Ethene
+C74986     Propane
+C115071    Propene
+C74997     Propyne
+C75194     Cyclopropane
+C106978    Butane
+C75285     Isobutane
+C109660    Pentane
+C78784     2-Methylbutane
+C463821    2,2-Dimethylpropane
+C110543    Hexane
+C107835    2-Methylpentane
+C110827    Cyclohexane
+C142825    Heptane
+C111659    Octane
+C111842    Nonane
+C124185    Decane
+C112403    Dodecane
+C7440597   Helium
+C7440019   Neon
+C7440371   Argon
+C7439909   Krypton
+C7440633   Xenon
+C7664417   Ammonia
+C7783542   Nitrogen trifluoride
+C75694     Trichlorofluoromethane (R11)
+C75718     Dichlorodifluoromethane (R12)
+C75729     Chlorotrifluoromethane (R13)
+C75730     Tetrafluoromethane (R14)
+C75434     Dichlorofluoromethane (R21)
+C75456     Methane, chlorodifluoro- (R22)
+C75467     Trifluoromethane (R23)
+C75105     Methane, difluoro- (R32)
+C593533    Fluoromethane (R41)
+C76131     1,1,2-Trichloro-1,2,2-trifluoroethane (R113)
+C76142     1,2-Dichloro-1,1,2,2-tetrafluoroethane (R114)
+C76153     Chloropentafluoroethane (R115)
+C76164     Hexafluoroethane (R116)
+C306832    Ethane, 2,2-dichloro-1,1,1-trifluoro- (R123)
+C2837890   Ethane, 1-chloro-1,2,2,2-tetrafluoro- (R124)
+C354336    Ethane, pentafluoro- (R125)
+C811972    Ethane, 1,1,1,2-tetrafluoro- (R134a)
+C1717006   1,1-Dichloro-1-fluoroethane (R141b)
+C75683     1-Chloro-1,1-difluoroethane (R142b)
+C420462    Ethane, 1,1,1-trifluoro- (R143a)
+C75376     Ethane, 1,1-difluoro- (R152a)
+C76197     Octafluoropropane (R218)
+C431890    1,1,1,2,3,3,3-Heptafluoropropane (R227ea)
+C431630    1,1,1,2,3,3-Hexafluoropropane (R236ea)
+C690391    1,1,1,3,3,3-Hexafluoropropane (R236fa)
+C679867    1,1,2,2,3-Pentafluoropropane (R245ca)
+C460731    1,1,1,3,3-Pentafluoropropane (R245fa)
+C115253    Octafluorocyclobutane (RC318)
+C71432     Benzene
+C108883    Toluene
+C355259    Decafluorobutane
+C678262    Dodecafluoropentane
+C7446095   Sulfur dioxide
+C7783064   Hydrogen sulfide
+C2551624   Sulfur hexafluoride
+C463581    Carbonyl sulfide
+</pre>
