@@ -1,0 +1,112 @@
+************************************************************************
+*****************************  fluids.sh  ******************************
+************************************************************************
+                                                            May 15. 2013
+CONTENTS:
+
+- CONCEPT
+- IMPORTANT NOTE!
+- INSTALLATION
+- USAGE
+- CITATION
+- HISTORY
+
+									
+************************************************************************
+
+CONCEPT
+
+fluid.sh is a shell script which utilized 'wget' to acquire fluid properties 
+from the NIST Chemistry WebBook (http://webbook.nist.gov/chemistry/) in a 
+format suitable for further processing with shell scripts or e.g. xmgrace.
+It supports the full functionality provided by the website!
+
+The script takes the same input as command line arguments you need to
+enter on the web forms. It produces a ASCII text file containing the
+respective data points in columns headed by a well readable description.
+The advantage is that you do not need to "click" through three web pages
+and export the result - you can do it with _one_ command in the shell!
+This makes it possible to introduce it in shell scripts to automatize the
+analysis of other data, to compare or just to save time.
+
+
+************************************************************************
+
+IMPORTANT NOTE!
+
+Every usage of 'fluids.sh' produces traffic on the NIST web server.
+So please be careful, especially if you add a call to 'fluids.sh' in a 
+script (even in a loop!).
+
+Till yet this service is provided from NIST for free. So please be fair!
+If you need to access this data on a daily basis or within a commercial background,
+you should consider to buy 'NIST Reference Fluid Thermodynamic and Transport 
+Properties Database (REFPROP)' [http://www.nist.gov/srd/nist23.cfm]!
+
+									
+************************************************************************
+
+INSTALLATION
+
+ 0. Requirements:
+    
+    The script is written to be interpreted with the Bourne shell (sh),
+    which is usually available on all Unix/Linux platforms.
+    Despite the standard command line tools (cat, tail,...) the only
+    dependency is 'wget' to request and retrieve the data from the 
+    NIST web server.
+    
+    
+ 1. Installation:
+    
+    Just copy the 'fluids.sh' file in a folder which is included in your
+    $PATH or add the folder to the $PATH variable.
+
+									
+************************************************************************
+
+USAGE
+
+ 0. General:
+ 
+    Just type 'fluids.sh -h' to get the help message.
+    You need to specify the substance of interest by an ID. To get a list
+    of available substances and the respective ID, type 'fluids.sh -show'.
+    For further information about the handling of the units of the input
+    and output quantities type 'fluids.sh -units'.
+    
+    
+ 1. Example:
+ 
+ 	 Calculate an isotherm (-it) of water (-id C7732185) for T/K=725.5
+	 from p/MPa=1.0 to 10.0 with p.increment/MPa=0.5 and use SI units:
+
+    fluids.sh -id C7732185 -it -T 725.5 -pl 1.0 -ph 10.0 -i 0.5 -si
+
+
+************************************************************************
+
+CITATION
+
+Please cite properly!
+In general you should cite
+
+  "P.J. Linstrom and W.G. Mallard, Eds., NIST Chemistry WebBook,
+   NIST Standard Reference Database Number 69, 
+   National Institute of Standards and Technology,
+   Gaithersburg MD, 20899, http://webbook.nist.gov, (retrieved <date>)"
+
+for the source.
+
+If you make use of particular data in a publication (paper, thesis,..)
+you should have a look at the respective 'NIST Chemistry WebBook/
+Fluid properties' [http://webbook.nist.gov/chemistry/] website to refere 
+to the individual publication regarding the property of interest.
+
+
+************************************************************************
+
+HISTORY
+
+1     First non-public release.
+1.01  First public release: cleaning up the code.
