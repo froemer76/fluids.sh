@@ -4,7 +4,7 @@
 
 <pre>
 
-ID         Substance
+ ID         Substance
 ---------  ----------------
 C7732185   Water
 C7727379   Nitrogen
