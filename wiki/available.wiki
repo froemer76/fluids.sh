@@ -2,6 +2,8 @@
 
 = Available substances =
 
+Currently there are 75 substances available.
+
 <pre>
 
  ID         Substance
